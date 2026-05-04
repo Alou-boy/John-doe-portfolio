@@ -1,0 +1,131 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.trait-bleu {
+  width: 70px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0.5rem auto 1.5rem auto;
+  border: none;
+}
+
+.trait-bleu-left {
+  width: 70px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0.5rem 0 1.5rem 0;
+  border: none;
+}
+
+.hero {
+  position: relative;
+  min-height: 500px;
+  background-image: url('https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1400');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.banniere {
+  height: 180px;
+  background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1400');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-projet {
+  transition: background-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card-projet:hover {
+  background-color: #efefef;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-voir:hover {
+  filter: brightness(1.25);
+}
+
+.btn-primary:hover {
+  background-color: #0a58ca;
+  border-color: #0a58ca;
+}
+
+.lien-footer {
+  color: #9ca3af;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  transition: color 0.2s;
+}
+
+.lien-footer:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.icone-reseau {
+  color: #9ca3af;
+  font-size: 1.4rem;
+  margin-right: 10px;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.icone-reseau:hover {
+  color: white;
+}
+
+.bg-html  { background-color: #dc3545 !important; }
+.bg-css   { background-color: #0dcaf0 !important; }
+.bg-js    { background-color: #ffc107 !important; }
+.bg-php   { background-color: #198754 !important; }
+.bg-react { background-color: #0d6efd !important; }
+
+.ligne-profil {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+  font-size: 0.9rem;
+}
+
+.ligne-profil:last-child {
+  border-bottom: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
